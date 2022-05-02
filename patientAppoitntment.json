@@ -1,0 +1,181 @@
+{
+	"name": "PATIENT APPOINTMENT SCREENING CARD FORM",
+	"pages": [
+		{
+			"label": "Patient Screening Details:",
+			"sections": [
+				{
+					"label": "Clinic:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Clinic",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1588AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "77931003"
+									},
+									{
+										"type": "SNOMED-MVP",
+										"value": "15881000105001"
+									},
+									{
+										"type": "PIH",
+										"value": "2069"
+									}
+								]
+							},
+							"id": "health_clinic"
+						}
+					]
+				},
+				{
+					"label": "Name:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Name",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "PIH",
+										"value": "2725"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "408677003"
+									}
+								]
+							},
+							"id": "first name"
+						}
+					]
+				},
+				{
+					"label": "Ward:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Ward type",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "225746001"
+									}
+								]
+							},
+							"id": "ward_name"
+						}
+					]
+				},
+				{
+					"label": "File Number:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Patient File Number",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "file_number"
+						}
+					]
+				},
+				{
+					"label": "Telephone Number:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Telephone Number",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "166458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"max": "07999999999",
+								"showDate": "false"
+							},
+							"id": "phone_contact"
+						}
+					]
+				},
+				{
+					"label": "Date/Month",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Date/Month",
+							"type": "encounterDatetime",
+							"questionOptions": {
+								"rendering": "date",
+								"weeksList": ""
+							},
+							"id": "date_time"
+						}
+					]
+				},
+				{
+					"label": "Return Date",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Return Date",
+							"type": "encounterDatetime",
+							"questionOptions": {
+								"rendering": "date",
+								"weeksList": ""
+							},
+							"id": "return_date"
+						}
+					]
+				},
+				{
+					"label": "Visit Type:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Visit Type",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "radio",
+								"concept": "164181AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"answers": [
+									{
+										"concept": "160530AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Return Visit Type",
+										"conceptMappings": []
+									},
+									{
+										"concept": "164180AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "New visit",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-NP",
+												"value": "103324002"
+											}
+										]
+									}
+								]
+							},
+							"id": "visit_type"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

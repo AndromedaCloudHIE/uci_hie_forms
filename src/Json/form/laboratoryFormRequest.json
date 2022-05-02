@@ -1,0 +1,144 @@
+{
+	"name": "",
+	"pages": [
+		{
+			"label": "HIV Results",
+			"sections": [
+				{
+					"label": "HIV Results",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Viral Load",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"max": "",
+								"min": "",
+								"showDate": "true",
+								"conceptMappings": [
+									{
+										"type": "IMO-ProcedureIT",
+										"value": "929811"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "315124004"
+									},
+									{
+										"type": "LOINC",
+										"value": "25836-8"
+									},
+									{
+										"type": "AMPATH",
+										"value": "856"
+									}
+								]
+							},
+							"id": "856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "CD4",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "5497AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"max": "",
+								"min": "",
+								"showDate": "true",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "5497"
+									},
+									{
+										"type": "LOINC",
+										"value": "24467-3"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "313660005"
+									},
+									{
+										"type": "org.openmrs.module.mdrtb",
+										"value": "CD4 COUNT"
+									},
+									{
+										"type": "LOINC",
+										"value": "20605-2"
+									},
+									{
+										"type": "PIH",
+										"value": "5497"
+									},
+									{
+										"type": "IMO-ProcedureIT",
+										"value": "923416"
+									}
+								]
+							},
+							"id": "5497AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Hematology",
+			"sections": [
+				{
+					"label": "Bloodwork",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "White Blood Cells (WBC)",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "678AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"max": "",
+								"min": "",
+								"showDate": "",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-CT",
+										"value": "391558003"
+									},
+									{
+										"type": "AMPATH",
+										"value": "678"
+									},
+									{
+										"type": "LOINC",
+										"value": "53225-9"
+									},
+									{
+										"type": "AMPATH",
+										"value": "680"
+									},
+									{
+										"type": "AMPATH",
+										"value": "649"
+									},
+									{
+										"type": "IMO-ProcedureIT",
+										"value": "923338"
+									},
+									{
+										"type": "AMPATH",
+										"value": "676"
+									}
+								]
+							},
+							"id": "678"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

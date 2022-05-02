@@ -1,0 +1,341 @@
+{
+	"name": "POC ULTRA SOUND REQUEST FORM",
+	"pages": [
+		{
+			"label": "ULTRA SOUND REQUEST FORM",
+			"sections": [
+				{
+					"label": "Patient Information",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "name",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "PIH",
+										"value": "2725"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "408677003"
+									}
+								]
+							},
+							"id": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Sex",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "radio",
+								"concept": "1533AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "LOINC",
+										"value": "72143-4"
+									}
+								],
+								"answers": [
+									{
+										"concept": "1534AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Male",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "248153007"
+											},
+											{
+												"type": "PIH",
+												"value": "2843"
+											}
+										]
+									},
+									{
+										"concept": "1535AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Female",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "248152002"
+											},
+											{
+												"type": "PIH",
+												"value": "2844"
+											}
+										]
+									}
+								]
+							},
+							"id": "1533AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Date Of Birth ",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "date",
+								"concept": "164802AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"weeksList": "",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "184099003"
+									}
+								]
+							},
+							"id": "164802AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Registration Number",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "5325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "5074"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5890"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5683"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5700"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5899"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5941"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5325"
+									},
+									{
+										"type": "SNOMED-MVP",
+										"value": "53251000105003"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5908"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5686"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5003"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5677"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5903"
+									},
+									{
+										"type": "SNOMED-NP",
+										"value": "396278008"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5058"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5691"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5553"
+									}
+								]
+							},
+							"id": "5325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Hospital ",
+							"type": "encounterLocation",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1589AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "6181"
+									},
+									{
+										"type": "PIH",
+										"value": "2070"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "22232009"
+									}
+								]
+							},
+							"id": "1589AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Clinician",
+							"type": "encounterProvider",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1574AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "5506"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "309343006"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5082"
+									}
+								]
+							},
+							"id": "1574AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Ward/OP",
+							"type": "encounterLocation",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "225746001"
+									}
+								]
+							},
+							"id": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Grade",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "166082AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-CT",
+										"value": "225908003"
+									}
+								]
+							},
+							"id": "166082AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Paid Amount/UGx ",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "5269AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "5269"
+									}
+								]
+							},
+							"id": "5269AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "OPD Number",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+							},
+							"id": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+						},
+						{
+							"label": "Date",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "date",
+								"concept": "160715AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "160715AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Receipt Number",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "165416AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "165416AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Clinician Notes And provisional Diagnosis",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "160250AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "3",
+								"conceptMappings": [
+									{
+										"type": "SNOMED CT",
+										"value": "CT: 89100005"
+									},
+									{
+										"type": "CIEL",
+										"value": "160250"
+									}
+								]
+							},
+							"id": "160250AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Investigation Required",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "1143AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "3",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "1143"
+									}
+								]
+							},
+							"id": "1143AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Signed By",
+							"type": "encounterProvider",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162591AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "162591AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

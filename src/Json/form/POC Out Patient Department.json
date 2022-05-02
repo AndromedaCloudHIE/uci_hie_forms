@@ -1,0 +1,301 @@
+{
+	"name": "POC Out Patient Department",
+	"pages": [
+		{
+			"label": "Out Patient Department",
+			"sections": [
+				{
+					"label": "Patient Information",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "name",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "PIH",
+										"value": "2725"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "408677003"
+									}
+								]
+							},
+							"id": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Sex",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "radio",
+								"concept": "1533AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "LOINC",
+										"value": "72143-4"
+									}
+								],
+								"answers": [
+									{
+										"concept": "1534AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Male",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "248153007"
+											},
+											{
+												"type": "PIH",
+												"value": "2843"
+											}
+										]
+									},
+									{
+										"concept": "1535AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Female",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "248152002"
+											},
+											{
+												"type": "PIH",
+												"value": "2844"
+											}
+										]
+									}
+								]
+							},
+							"id": "1533AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Date Of Birth ",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "date",
+								"concept": "164802AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"weeksList": "",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "184099003"
+									}
+								]
+							},
+							"id": "164802AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Registration Number",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "5325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "5074"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5890"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5683"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5700"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5899"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5941"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5325"
+									},
+									{
+										"type": "SNOMED-MVP",
+										"value": "53251000105003"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5908"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5686"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5003"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5677"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5903"
+									},
+									{
+										"type": "SNOMED-NP",
+										"value": "396278008"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5058"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5691"
+									},
+									{
+										"type": "AMPATH",
+										"value": "5553"
+									}
+								]
+							},
+							"id": "5325AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Hospital ",
+							"type": "encounterLocation",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1589AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "6181"
+									},
+									{
+										"type": "PIH",
+										"value": "2070"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "22232009"
+									}
+								]
+							},
+							"id": "1589AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Special Clinic",
+							"type": "encounterLocation",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1588AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "77931003"
+									},
+									{
+										"type": "SNOMED-MVP",
+										"value": "15881000105001"
+									},
+									{
+										"type": "PIH",
+										"value": "2069"
+									}
+								]
+							},
+							"id": "1588AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Ward",
+							"type": "encounterLocation",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "225746001"
+									}
+								]
+							},
+							"id": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "OPD Number",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+							},
+							"id": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+						},
+						{
+							"label": "Marital",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "160765AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "5555"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "87915002"
+									}
+								]
+							},
+							"id": "160765AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Date",
+							"type": "encounterDatetime",
+							"questionOptions": {
+								"rendering": "date",
+								"concept": "21eced40-aa0d-47a7-bb9a-a5a3fc51a184",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "416342005"
+									}
+								],
+								"weeksList": ""
+							},
+							"id": "21eced40-aa0d-47a7-bb9a-a5a3fc51a184"
+						},
+						{
+							"label": "Phone Number",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "159635AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "159635AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Patient Address",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

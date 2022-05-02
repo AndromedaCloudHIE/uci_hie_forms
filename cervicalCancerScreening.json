@@ -1,0 +1,153 @@
+{
+	"name": "POC CERVICAL CANCER SCREENING VIA REPORT FORM",
+	"pages": [
+		{
+			"label": "POC CERVICAL CANCER SCREENING VIA REPORT FORM",
+			"sections": [
+				{
+					"label": "Date:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Date:",
+							"type": "encounterDatetime",
+							"questionOptions": {
+								"rendering": "date",
+								"weeksList": ""
+							},
+							"id": "date"
+						}
+					]
+				},
+				{
+					"label": "Age:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Patient Age:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"max": "150",
+								"min": "0",
+								"showDate": "true",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "989"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "71395006"
+									}
+								]
+							},
+							"id": "patient_age"
+						}
+					]
+				},
+				{
+					"label": "Patient Name:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Patient Name:",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "name"
+						}
+					]
+				},
+				{
+					"label": "Out Patient ID Number:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "OPDNumber",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "opd_number"
+						}
+					]
+				},
+				{
+					"label": "VIA Result:",
+					"isExpanded": "true",
+					"questions": []
+				},
+				{
+					"label": "Lesion meets clinical criteria for diagnosis biopsy:",
+					"isExpanded": "true",
+					"questions": []
+				},
+				{
+					"label": "Cervical Map",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Cervical Map:",
+							"type": "complex-obs",
+							"questionOptions": {
+								"rendering": "file"
+							},
+							"id": "cervical_map"
+						}
+					]
+				},
+				{
+					"label": "Other notes and plan",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Other Notes",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "160029AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "10"
+							},
+							"id": "other_notes"
+						}
+					]
+				},
+				{
+					"label": "Next Review Date",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Next Review Date",
+							"type": "encounterDatetime",
+							"questionOptions": {
+								"rendering": "date",
+								"weeksList": ""
+							},
+							"id": "next_date"
+						}
+					]
+				},
+				{
+					"label": "Screening Staff Name:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Screening Staff Name:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "staff_name"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

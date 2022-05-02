@@ -1,0 +1,425 @@
+{
+	"name": "HISTOLOGY REQUEST FORM",
+	"pages": [
+		{
+			"label": "INITIALS",
+			"sections": [
+				{
+					"label": "Phys / Surg:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Phys / Surg:",
+							"type": "encounterProvider",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "phys_surg"
+						}
+					]
+				},
+				{
+					"label": "MO (Block Letters):",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "MO (Block Letters):",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "mo"
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "CLINICAL SUMMARY",
+			"sections": [
+				{
+					"label": "Previous Biopsy:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Previous Biopsy:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "previous_biopsy"
+						}
+					]
+				},
+				{
+					"label": "Laboratory Number:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Laboratory Number:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164409AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "164409AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				},
+				{
+					"label": "Nature Of Specimen And Site:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Nature Of Specimen And Site:",
+							"type": "obsGroup",
+							"questionOptions": {
+								"rendering": "group",
+								"concept": "162476AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED CT",
+										"value": "CT: 246087005"
+									},
+									{
+										"type": "CIEL",
+										"value": "162476"
+									}
+								]
+							},
+							"id": "162476AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+							"questions": [
+								{
+									"label": "Ascitic fluid",
+									"id": "__7KHpFp8vK",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "162403AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Cerebrospinal fluid",
+									"id": "__LqnzuruDn",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "159995AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Feces",
+									"id": "__poqxDnqps",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "159993AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Plasma",
+									"id": "__JpsusEFsz",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "1002AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Serum",
+									"id": "__xGFvzyH7K",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "1001AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Sputum",
+									"id": "__roItpzJt8",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "1004AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Urine",
+									"id": "__GsyMJIKGz",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "159994AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								},
+								{
+									"label": "Whole blood sample",
+									"id": "__JsE5ouHDH",
+									"questionOptions": {
+										"rendering": "text",
+										"concept": "1000AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									"type": "obs"
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "Date:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Date:",
+							"type": "encounterDatetime",
+							"questionOptions": {
+								"rendering": "date",
+								"weeksList": ""
+							},
+							"id": "date"
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "PATIENT PARTICULARS",
+			"sections": [
+				{
+					"label": "Name:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Name:",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "name"
+						}
+					]
+				},
+				{
+					"label": "Age:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Age",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "989"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "71395006"
+									}
+								],
+								"max": "150",
+								"min": "0",
+								"showDate": "true"
+							},
+							"id": " 989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				},
+				{
+					"label": "Sex:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Gender",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "gender"
+						}
+					]
+				},
+				{
+					"label": "Ward:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Ward:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "225746001"
+									}
+								]
+							},
+							"id": " 164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				},
+				{
+					"label": "Unit:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Unit",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED CT",
+										"value": "CT: 258666001"
+									},
+									{
+										"type": "CIEL",
+										"value": "162381"
+									}
+								]
+							},
+							"id": "162381AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				},
+				{
+					"label": "Hospital:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Hospital",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1589AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "6181"
+									},
+									{
+										"type": "PIH",
+										"value": "2070"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "22232009"
+									}
+								]
+							},
+							"id": "1589AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				},
+				{
+					"label": "Tribe:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Tribe",
+							"type": "personAttribute",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "tribe"
+						}
+					]
+				},
+				{
+					"label": "Race:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Race",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "race"
+						}
+					]
+				},
+				{
+					"label": "IPNumber:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "I.P No:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "ip_number"
+						}
+					]
+				},
+				{
+					"label": "OPNumber:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "O.P No:",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "op_number"
+						}
+					]
+				},
+				{
+					"label": "Entitled/Non-entitled:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Entitled/Non-entitled",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text"
+							},
+							"id": "entitle"
+						}
+					]
+				},
+				{
+					"label": "Patients Address: (Village, Subcounty, County, District, Country)",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Address",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				},
+				{
+					"label": "Lab Number:",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Lab Number",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164409AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "164409AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

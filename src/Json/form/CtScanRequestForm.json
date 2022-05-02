@@ -1,0 +1,329 @@
+{
+	"name": "",
+	"pages": [
+		{
+			"label": "CT.SCAN REQUEST FORM",
+			"sections": [
+				{
+					"label": "CT. SCAN REQUEST FORM",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "ONPO",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "928def39-33c1-4ddb-8430-165db28448c8"
+							},
+							"id": "928def39-33c1-4ddb-8430-165db28448c8"
+						},
+						{
+							"label": "INPO",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "163761AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "163761AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Date",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "date",
+								"concept": "21eced40-aa0d-47a7-bb9a-a5a3fc51a184",
+								"weeksList": ""
+							},
+							"id": "21eced40-aa0d-47a7-bb9a-a5a3fc51a184"
+						},
+						{
+							"label": "Name",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "162087AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Age",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "989"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "71395006"
+									}
+								]
+							},
+							"id": "989AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Sex",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "166025AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "184100006"
+									}
+								],
+								"answers": [
+									{
+										"concept": "1535AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Female gender",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "248152002"
+											},
+											{
+												"type": "PIH",
+												"value": "2844"
+											}
+										]
+									},
+									{
+										"concept": "1534AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Male gender",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "248153007"
+											},
+											{
+												"type": "PIH",
+												"value": "2843"
+											}
+										]
+									}
+								]
+							},
+							"id": "166025AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Ward",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "225746001"
+									}
+								]
+							},
+							"id": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Occupation",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1542AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "AMPATH",
+										"value": "1972"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "14679004"
+									},
+									{
+										"type": "AMPATH",
+										"value": "1947"
+									},
+									{
+										"type": "PIH",
+										"value": "1304"
+									}
+								]
+							},
+							"id": "1542AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Patients Contact Address",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": " 162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Telephone No",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "166458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"showDate": "true"
+							},
+							"id": "166458AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Consultant",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "163104AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "163104AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Address",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "160641AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "160641AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Tel/Fax",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "160642AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-CT",
+										"value": "444018008"
+									}
+								]
+							},
+							"id": "160642AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Clinical Features",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "164359AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "3",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "3457005"
+									}
+								]
+							},
+							"id": "164359AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Laboratory Findings",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "165399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "12"
+							},
+							"id": " 165399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Plain X-Rays Findings",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164879AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "164879AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Ultra Sound Findings",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "164359AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-NP",
+										"value": "3457005"
+									}
+								]
+							},
+							"id": "164359AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Result Of Other Specialised Investigations",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "161577AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": " 161577AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Provisional Diagnosis",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "160531AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "LOINC",
+										"value": "10154-3"
+									},
+									{
+										"type": "SNOMED-NP",
+										"value": "33962009"
+									}
+								]
+							},
+							"id": " 160531AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "CT Scan Required",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "162725AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Reasons For CT Scan",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "163761AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "163761AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Emergency/Urgent/As Soon As Possible/As Convinient",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "160430AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "10"
+							},
+							"id": "160430AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Signature",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "928def39-33c1-4ddb-8430-165db28448c8"
+							},
+							"id": " 928def39-33c1-4ddb-8430-165db28448c8"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}

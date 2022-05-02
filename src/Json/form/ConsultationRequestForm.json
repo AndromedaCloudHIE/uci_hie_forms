@@ -1,0 +1,661 @@
+{
+	"name": "",
+	"pages": [
+		{
+			"label": "CONSULTATION REQUEST FORM",
+			"sections": [
+				{
+					"label": "PATIENT INFORMATION",
+					"isExpanded": "true",
+					"questions": [
+						{
+							"label": "Date",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "date",
+								"concept": "21eced40-aa0d-47a7-bb9a-a5a3fc51a184",
+								"weeksList": ""
+							},
+							"id": "21eced40-aa0d-47a7-bb9a-a5a3fc51a184"
+						},
+						{
+							"label": "The Opinion Of Dr/Mr",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "928def39-33c1-4ddb-8430-165db28448c8"
+							},
+							"id": "928def39-33c1-4ddb-8430-165db28448c8"
+						},
+						{
+							"label": "Name",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "PIH",
+										"value": "2725"
+									},
+									{
+										"type": "SNOMED-CT",
+										"value": "408677003"
+									}
+								]
+							},
+							"id": "166102AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Registration Number",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "number",
+								"concept": "475efb37-20f6-44d3-91a0-7002ac8cc532",
+								"max": "12",
+								"min": "6",
+								"showDate": "true"
+							},
+							"id": "475efb37-20f6-44d3-91a0-7002ac8cc532"
+						},
+						{
+							"label": "Ward",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "155249AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "155249AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Bed",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "161629AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "161629AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Diagnosis",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "drug",
+								"concept": "64dddbdf-def9-4bf6-9441-34e6f8c9df25",
+								"answers": [
+									{
+										"concept": "e4ec74c2-6e4d-4539-b712-37ee267976f6",
+										"label": "Other pathology",
+										"conceptMappings": []
+									},
+									{
+										"concept": "145092AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Cirrhosis and chronic liver disease",
+										"conceptMappings": [
+											{
+												"type": "CIEL",
+												"value": "145092"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "197279005"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "K74.6"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "30772"
+											}
+										]
+									},
+									{
+										"concept": "142473AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Diabetes mellitus, type 2",
+										"conceptMappings": [
+											{
+												"type": "PIH",
+												"value": "6692"
+											},
+											{
+												"type": "IMO ProblemIT",
+												"value": "ProblemIT: 334677"
+											},
+											{
+												"type": "CIEL",
+												"value": "142473"
+											},
+											{
+												"type": "SNOMED CT",
+												"value": "CT: 44054006"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "E11.9"
+											},
+											{
+												"type": "PIH",
+												"value": "7217"
+											},
+											{
+												"type": "CIEL",
+												"value": "142473"
+											}
+										]
+									},
+									{
+										"concept": "142474AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Diabetes mellitus, type 1",
+										"conceptMappings": [
+											{
+												"type": "ICD-10-WHO",
+												"value": "E10.9"
+											},
+											{
+												"type": "PIH",
+												"value": "6691"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "46635009"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "334672"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "18478"
+											},
+											{
+												"type": "CIEL",
+												"value": "142474"
+											}
+										]
+									},
+									{
+										"concept": "118976AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Disorder of thyroid",
+										"conceptMappings": [
+											{
+												"type": "ICD-10-WHO",
+												"value": "E07.9"
+											},
+											{
+												"type": "CIEL",
+												"value": "118976"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "92096"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "14304000"
+											}
+										]
+									},
+									{
+										"concept": "111103AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Cerebrovascular accident",
+										"conceptMappings": [
+											{
+												"type": "CIEL",
+												"value": "111103"
+											},
+											{
+												"type": "AMPATH",
+												"value": "1878"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "72007"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "230690007"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "I64"
+											}
+										]
+									},
+									{
+										"concept": "117399AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Hypertension",
+										"conceptMappings": [
+											{
+												"type": "SNOMED CT",
+												"value": "CT: 38341003"
+											},
+											{
+												"type": "IMO ProblemIT",
+												"value": "ProblemIT: 86491"
+											},
+											{
+												"type": "CIEL",
+												"value": "117399"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "I10"
+											},
+											{
+												"type": "CIEL",
+												"value": "117399"
+											},
+											{
+												"type": "AMPATH",
+												"value": "903"
+											}
+										]
+									},
+									{
+										"concept": "145347AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic viral Hepatitis C",
+										"conceptMappings": [
+											{
+												"type": "IMO-ProblemIT",
+												"value": "194247"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "128302006"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "B18.2"
+											},
+											{
+												"type": "ICPC2",
+												"value": "D72"
+											},
+											{
+												"type": "3BT",
+												"value": "10040687"
+											},
+											{
+												"type": "CIEL",
+												"value": "145347"
+											}
+										]
+									},
+									{
+										"concept": "155AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Epilepsy",
+										"conceptMappings": [
+											{
+												"type": "ICPC2",
+												"value": "N88"
+											},
+											{
+												"type": "3BT",
+												"value": "10030574"
+											},
+											{
+												"type": "SNOMED CT",
+												"value": "CT: 84757009"
+											},
+											{
+												"type": "CIEL",
+												"value": "155"
+											},
+											{
+												"type": "CIEL",
+												"value": "155"
+											},
+											{
+												"type": "IMO ProblemIT",
+												"value": "ProblemIT: 67563"
+											},
+											{
+												"type": "PIH Malawi",
+												"value": "Malawi: 155"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "G40.9"
+											},
+											{
+												"type": "SNOMED NP",
+												"value": "NP: 313307000"
+											},
+											{
+												"type": "PIH",
+												"value": "155"
+											},
+											{
+												"type": "AMPATH",
+												"value": "155"
+											}
+										]
+									},
+									{
+										"concept": "1295AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic obstructive pulmonary disease",
+										"conceptMappings": [
+											{
+												"type": "AMPATH",
+												"value": "1295"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "72305"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "13645005"
+											},
+											{
+												"type": "PIH-Malawi",
+												"value": "6479"
+											},
+											{
+												"type": "PIH",
+												"value": "3716"
+											},
+											{
+												"type": "3BT",
+												"value": "10111400"
+											},
+											{
+												"type": "ICPC2",
+												"value": "R95"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "J44.9"
+											},
+											{
+												"type": "CIEL",
+												"value": "1295"
+											}
+										]
+									},
+									{
+										"concept": "120577AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic kidney disease, stage V",
+										"conceptMappings": [
+											{
+												"type": "ICD-10-WHO",
+												"value": "N18.5"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "514911"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "433146000"
+											},
+											{
+												"type": "CIEL",
+												"value": "120577"
+											}
+										]
+									},
+									{
+										"concept": "120578AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic kidney disease, stage IV (severe)",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "431857002"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "N18.4"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "514908"
+											},
+											{
+												"type": "CIEL",
+												"value": "120578"
+											}
+										]
+									},
+									{
+										"concept": "120579AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic kidney disease, stage III (moderate)",
+										"conceptMappings": [
+											{
+												"type": "CIEL",
+												"value": "120579"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "433144002"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "514905"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "N18.3"
+											}
+										]
+									},
+									{
+										"concept": "120574AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic kidney disease, stage II (mild)",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "431856006"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "514902"
+											},
+											{
+												"type": "CIEL",
+												"value": "120574"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "N18.2"
+											}
+										]
+									},
+									{
+										"concept": "120575AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic kidney disease, stage I",
+										"conceptMappings": [
+											{
+												"type": "SNOMED-CT",
+												"value": "431855005"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "514898"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "N18.1"
+											},
+											{
+												"type": "CIEL",
+												"value": "120575"
+											}
+										]
+									},
+									{
+										"concept": "120576AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Chronic kidney insufficiency",
+										"conceptMappings": [
+											{
+												"type": "IMO-ProblemIT",
+												"value": "79878"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "90688005"
+											},
+											{
+												"type": "CIEL",
+												"value": "120576"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "709740"
+											},
+											{
+												"type": "ICPC2",
+												"value": "U99"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "N18.9"
+											},
+											{
+												"type": "PIH",
+												"value": "3699"
+											},
+											{
+												"type": "3BT",
+												"value": "10119104"
+											}
+										]
+									},
+									{
+										"concept": "119270AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Cardiovascular disease",
+										"conceptMappings": [
+											{
+												"type": "ICD-11-WHO",
+												"value": "BE2Z"
+											},
+											{
+												"type": "SNOMED-CT",
+												"value": "49601007"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "I51.6"
+											},
+											{
+												"type": "IMO-ProblemIT",
+												"value": "39995"
+											},
+											{
+												"type": "CIEL",
+												"value": "119270"
+											},
+											{
+												"type": "CIEL",
+												"value": "119270"
+											},
+											{
+												"type": "PIH",
+												"value": "996"
+											}
+										]
+									},
+									{
+										"concept": "121375AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+										"label": "Asthma",
+										"conceptMappings": [
+											{
+												"type": "CIEL",
+												"value": "121375"
+											},
+											{
+												"type": "PIH",
+												"value": "5"
+											},
+											{
+												"type": "CIEL",
+												"value": "121375"
+											},
+											{
+												"type": "SNOMED CT",
+												"value": "CT: 195967001"
+											},
+											{
+												"type": "IMO ProblemIT",
+												"value": "ProblemIT: 94262"
+											},
+											{
+												"type": "ICD-10-WHO",
+												"value": "J45.9"
+											},
+											{
+												"type": "AMPATH",
+												"value": "5"
+											},
+											{
+												"type": "PIH Malawi",
+												"value": "Malawi: 5"
+											},
+											{
+												"type": "AMPATH",
+												"value": "137"
+											},
+											{
+												"type": "ICPC2",
+												"value": "R96"
+											}
+										]
+									}
+								]
+							},
+							"id": "64dddbdf-def9-4bf6-9441-34e6f8c9df25"
+						},
+						{
+							"label": "Brief Reason For Indicating Reasons For Consultation",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "textarea",
+								"concept": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"rows": "12"
+							},
+							"id": "164829AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Urgently",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "1883AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+								"conceptMappings": [
+									{
+										"type": "SNOMED-CT",
+										"value": "103391001"
+									}
+								],
+								"answers": [
+									{
+										"label": "yes",
+										"concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									},
+									{
+										"label": "no",
+										"concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+									}
+								]
+							},
+							"id": "1883AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						},
+						{
+							"label": "Signed By",
+							"type": "obs",
+							"questionOptions": {
+								"rendering": "text",
+								"concept": "163761AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+							},
+							"id": "163761AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						}
+					]
+				}
+			]
+		}
+	],
+	"processor": "EncounterFormProcessor",
+	"uuid": "xxxx",
+	"referencedForms": []
+}
